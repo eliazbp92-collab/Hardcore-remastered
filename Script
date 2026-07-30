@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/qjQncYHN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Hardcore/refs/heads/main/Stamina"))()
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Lighting = game:GetService("Lighting")
@@ -17,7 +17,7 @@ if initiator then
         if type(mainGameModule.caption) == "function" then
             mainGameModule.caption("Hardcore Mode Remastered By Silence doors", true)
             wait(4)
-            mainGameModule.caption("Credits to (OG) Hunger NEW for the rbxm/entites", true)
+            mainGameModule.caption("Credits to (OG) Hunger NEW for the rbxm/entites and more", true)
             wait(3)
             mainGameModule.caption("you will have fun (you won’t)", true)
         end
