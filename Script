@@ -27,7 +27,7 @@ end
 -- Rebound Entity 
 coroutine.wrap(function()
     while true do
-        wait(math.random(120,225))
+        wait(math.random(225,350))
         ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         pcall(function()
@@ -301,7 +301,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
     Entity = {
         Name = "Silence",
-        Asset = "https://github.com/eliazbp92-collab/Super-medium-mode/raw/main/Silence.rbxm",
+        Asset = "rbxassetid://123133219643902",
         HeightOffset = 0
     },
     Lights = {
@@ -432,7 +432,7 @@ end)()
 -- B-60 Entity 
 coroutine.wrap(function()
     while true do
-        wait(math.random(100,200))
+        wait(math.random(275,350))
         ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         pcall(function()
@@ -472,7 +472,7 @@ local entity = spawner.Create({
 		Values = {20, 30, 0.1, 0.1}
 	},
 	Movement = {
-		Speed = 800,
+		Speed = 275,
 		Delay = 6,
 		Reversed = false
 	},
@@ -741,6 +741,8 @@ coroutine.wrap(function()
     while true do
         wait(math.random(200,210))
         pcall(function()
+
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
            ---====== Load spawner ======---
 
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
@@ -761,7 +763,7 @@ local camera = Workspace.CurrentCamera
 local entity = spawner.Create({
 	Entity = {
 		Name = "A60",
-		Asset = "https://github.com/eliazbp92-collab/Super-medium-mode/raw/main/A60.rbxm",
+		Asset = "rbxassetid://15455640886",
 		HeightOffset = 1
 	},
 	Lights = {
@@ -1209,7 +1211,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyou
 local entity = Spawner:Create({
 	Entity = {
 		Name = "RipperNotMoving",
-		Asset = "https://github.com/eoyoustme/Hardcore/blob/main/RipperMoving.rbxm?raw=true",
+		Asset = "rbxassetid://114315521109850",
 		HeightOffset = 4
 	},
 	Lights = {
